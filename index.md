@@ -400,6 +400,17 @@ These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
 
+For this workshop, you will need the following software:
+
+- A spreadsheet program (MS Excel, Libreoffice, etc)
+- OpenRefine
+- R
+- Rstudio
+
+Alternatively, you can also use [Rstudio Cloud](https://rstudio.cloud/project/1167280) if you are experiencing difficulties with R or Rstudio on your computer. However, we still recommend you running R/Rstudio locally whenever possible so that you can get a better understanding of how to use R.
+
+You will **NOT** need SQLite Browser for this workshop.
+
 {% if site.carpentry == "swc" %}
 {% include swc/setup.html %}
 {% elsif site.carpentry == "dc" %}
